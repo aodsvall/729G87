@@ -1,0 +1,151 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  flex-flow: wrap row;
+  background-color: lightblue;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  width: 15vw;
+  height: 40vh;
+  margin: 30px 10px;
+  border-radius: 15px;
+  border: solid grey;
+  background-color: white;
+  display: flex;
+}
+
+/* Card A*/
+.card.a {
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/*Card B*/
+.card.b {
+  flex-flow: nowrap column-reverse;
+  align-items: flex-end;
+}
+
+.card.b > .b {
+  position: relative;
+  left: 20px;
+}
+
+/*Card C*/
+.card.c > .box {
+  position: relative;
+  left: -20px;
+}
+
+/*Card D*/
+.card.d {
+  flex-flow: column;
+  justify-content: space-around;
+}
+
+.card.d > .background {
+  justify-content: center;
+  align-self: center;
+}
+
+.card.d > .box {
+  transform: rotate(90deg);
+  margin: 0;
+}
+
+/*Card E*/
+.card.e > .box {
+  margin: 0;
+  position: relative;
+}
+
+.card.e > .a {
+  border-top-left-radius: 12px;
+}
+
+.card.e > .c {
+  position: absolute;
+  align-self: flex-end;
+  right: 0;
+  border-bottom-right-radius: 12px;
+}
+
+.card.e > .b {
+  position: absolute;
+  right: 0;
+  border-top-right-radius: 12px;
+}
+
+.fixed.bottom {
+  width: 8vw;
+  height: 15vh;
+  background-color: rgb(163, 163, 163);
+  line-height: 150px;
+  margin: 0;
+}
+
+.right {
+  order: 7;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.background {
+  font-size: 100px;
+  position: absolute;
+  order: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background.p {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2vw;
+  height: 4vh;
+  margin: 8px;
+}
+
+.a.box {
+  background-color: rgb(95, 61, 139);
+  color: white;
+}
+
+.b.box,
+.c.box {
+  background-color: rgb(150, 148, 148);
+}
+
+div.card.c > .b {
+  background-color: coral;
+}

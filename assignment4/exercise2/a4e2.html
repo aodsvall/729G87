@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="a4e2.css">
+    <script src="toggle-button.js" defer></script>
+    <script src="a4e2.js" defer></script>
+    <title>Assignment 4. Exercise 2</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="instructions">
+        <p>Implement a button that toggles between two states when the user clicks on it.</p>
+        <p>When the user clicks on it, its value should toggle between 0 and 1. When it is 0, the widget is white. When the value is 1, the widget should be green.
+        </p>
+        <p>When the user clicks on the toggle-widget, it should fire an <code>input</code> event.</p>
+      </div>
+      <div id="buttons">
+        <h1>The toggle buttons!</h1>
+        <toggle-button label="Toggle 1"></toggle-button>
+        <toggle-button label="Toggle 2"></toggle-button>
+        <toggle-button label="Toggle 3"></toggle-button>
+        <toggle-button label="Toggle 4"></toggle-button>
+      </div>
+      <div id="info">
+        <p>toggle-button values: <span id="button-values"></span></p>
+      </div>
+    </div>
+  </body>
+
+</html>

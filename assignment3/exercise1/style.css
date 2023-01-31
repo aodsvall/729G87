@@ -1,0 +1,17 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 20vh;
+    height: 20vh;
+    background-color: blue;
+    
+}
+
+.square.active {
+    display: none;
+}

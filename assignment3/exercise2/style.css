@@ -1,0 +1,40 @@
+.wrapper {
+    height: 100vh;
+ 
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+select {
+    height: 20px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+.square {
+    position: sticky;
+    width: 12vh;
+    height: 12vh;
+    background-color: rgb(255, 200, 0);
+    margin: 10px;
+}
+
+.title {
+    position: absolute;
+    top: 30vh;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 65vw;
+
+}

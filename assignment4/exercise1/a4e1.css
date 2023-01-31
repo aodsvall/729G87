@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+}
+.wrapper {
+  width: 80ch;
+  min-height: 100vh;
+  padding: 10ch;
+  background-color: white;
+}
+
+h1, h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+info-message p {
+  font-family: sans-serif;
+  margin-bottom: 0.2em;
+}
+
+ul {
+  padding-inline-start: 2ch;
+}
+li {
+  list-style: disc;
+  margin-bottom: 0.2em;
+}
+strong {
+  font-weight: bold;
+}
+code {
+  font-family: monospace;
+}

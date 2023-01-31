@@ -1,0 +1,99 @@
+/*CSS stylesheet*/
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(219, 217, 217);
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-flow: row;
+}
+
+.tn-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  opacity: 100;
+}
+
+.tn-image > img {
+  width: 90%;
+  height: 90%;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.tn-image:hover > img {
+  opacity: 100%;
+}
+
+.tn-image.active > img {
+  opacity: 100%;
+}
+.image-container > img {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}
+
+.description-container {
+  position: absolute;
+  display: flex;
+  bottom: 5%;
+  width: 90%;
+  height: 15%;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vw;
+  width: 60vh;
+  background-color: white;
+}
+
+.arrow {
+  height: 0;
+  width: 0;
+  border: 50px solid transparent;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.left {
+  border-right: 70px solid grey;
+  margin-right: 20px;
+}
+
+.right {
+  border-left: 70px solid grey;
+  margin-left: 20px;
+}
+
+.arrow:hover {
+  opacity: 100%;
+}

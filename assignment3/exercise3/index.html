@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="reset.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+    <title>Assignment 3, Exercise 3</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="lhs">
+        <div class="input-text">
+          <textarea name="input" id="input" cols="50" rows="5" class="input"></textarea>
+        </div>
+        <div class="style-buttons">
+          <select name="styler" id="styler" class="styler">
+            <option value="1" class="plain">Cursive</option>
+            <option value="2" class="red">Red</option>
+            <option value="3" class="arial">Strong</option>
+          </select>
+          <button class="style-changer">Change style</button>
+          <button class="new-paragraph">New paragraph</button>
+        </div>
+      </div>
+      <div class="rhs">
+        <h2 class="heading">Story</h2>
+        <div id="output" class="text-output">
+          <p id="text" class="text"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

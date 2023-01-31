@@ -1,0 +1,19 @@
+html, body, div { padding: 0; margin: 0; }
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  padding-top: 3vh;
+}
+
+.rectangle {
+   height: 5vh;
+   width: 13vw;
+   display: inline-block;
+   background-color:steelblue;
+   margin: 1vw;
+}

@@ -1,0 +1,58 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ #wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vmin;
+    height: 100vh;
+ }
+ 
+ .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ 
+ .circle {
+    position: relative;
+    display: inline-block;
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 100%;
+    background-color: #abcdef;
+    margin: 2vmin;
+ }
+ 
+ .square {
+    position: relative;
+    display: inline-block;
+    height: 10vmin;
+    width: 10vmin;
+    background-color: steelblue;
+    margin: 2vmin;
+ }
+ 
+ .rectangle {
+    position: relative;
+    display: inline-block;
+    height: 2vmin;
+    width: 10vmin;
+    background-color: steelblue;
+    margin: 2vmin;
+ }
+ 
+ .green {
+    background: green;
+  }
